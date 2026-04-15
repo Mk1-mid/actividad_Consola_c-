@@ -174,7 +174,7 @@ Lógica:
 #### `funcionalidades_servicio`
 Métodos:
 
-- `inicarServicio()`: cambia estado de `pendiente` a `activo` (en el código actual el método está escrito así).
+- `iniciarServicio()` *(en el código actual aparece como `inicarServicio()`)*: cambia estado de `pendiente` a `activo`.
 - `finalizarServicio()`: cambia estado a `inactivo`.
 - `ConsultarServicio()`: lista todos los servicios.
 - `ConsultarConductoresVehiculos()`: submenú para consultar conductores o vehículos.
