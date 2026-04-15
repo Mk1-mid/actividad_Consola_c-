@@ -86,7 +86,7 @@ Cuando eliges una opción, se llama un método específico:
 - Opción 2 -> `servicio_registros.registro_vehiculo()`
 - Opción 3 -> `servicio_registros.registro_servicio()`
 - Opción 4 -> `asignar_servicio.servicio()`
-- Opción 5 -> `funcionalidades.inicarServicio()` *(así está escrito en el código actual)*
+- Opción 5 -> `funcionalidades.iniciarServicio()` *(en el código actual el método se llama `inicarServicio()`)*
 - Opción 6 -> `funcionalidades.finalizarServicio()`
 - Opción 7 -> `funcionalidades.ConsultarServicio()`
 - Opción 8 -> `funcionalidades.ConsultarConductoresVehiculos()`
@@ -223,7 +223,7 @@ Ejemplo del patrón usado en validaciones:
 int identificacion;
 if (!int.TryParse(Console.ReadLine(), out identificacion))
 {
-    Console.WriteLine("error, solo datos numericos");
+    Console.WriteLine("error, solo datos numéricos");
 }
 ```
 
@@ -263,7 +263,7 @@ db.SaveChanges();
 ### C) `funcionalidades_servicio` (operación diaria)
 
 Métodos:
-- `inicarServicio()` -> pendiente a activo
+- `iniciarServicio()` *(en el código actual aparece como `inicarServicio()`)* -> pendiente a activo
 - `finalizarServicio()` -> pendiente/activo a inactivo
 - `ConsultarServicio()` -> lista todos
 - `ConsultarConductoresVehiculos()` -> submenú de consulta
