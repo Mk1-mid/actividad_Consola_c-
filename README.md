@@ -67,7 +67,7 @@ Ejemplo mínimo:
 var conductor = new conductores
 {
     numero_identificacion = 12345,
-    nombre_completo = "ana perez",
+    nombre_completo = "Ana Perez",
     licencia = "C2",
     estado = "disponible"
 };
@@ -107,8 +107,8 @@ Ejemplo mínimo:
 ```csharp
 var servicio = new servicios
 {
-    origen = "medellin",
-    destino = "bogota",
+    origen = "Medellin",
+    destino = "Bogota",
     distancia = 420,
     estado = "pendiente",
     costo_total = 420 * 4000
@@ -174,7 +174,7 @@ Lógica:
 #### `funcionalidades_servicio`
 Métodos:
 
-- `inicarServicio()`: cambia estado de `pendiente` a `activo`.
+- `inicarServicio()`: cambia estado de `pendiente` a `activo` (en el código actual el método está escrito así).
 - `finalizarServicio()`: cambia estado a `inactivo`.
 - `ConsultarServicio()`: lista todos los servicios.
 - `ConsultarConductoresVehiculos()`: submenú para consultar conductores o vehículos.
